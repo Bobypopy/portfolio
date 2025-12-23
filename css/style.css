@@ -375,9 +375,13 @@ body {
     position: relative;
 }
 .profile-img {
-    width: 80%;
-    height: 80%;
+    width: 85%;
+    height: 85%;
     object-fit: cover;
+    object-position: center 30%; 
+    border-radius: 50%;
+    margin: auto;
+    display: block;
     filter: grayscale(20%);
     transition: var(--transition-medium);
 }
